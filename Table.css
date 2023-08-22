@@ -1,0 +1,61 @@
+.table-heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: black;
+}
+.plan-attributes{
+    font-weight: bold;
+    color: hsl(240, 69%, 51%);
+    text-shadow: 0.1px 0.1px .75px #4282e1;
+}
+body
+{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #19191a;
+    border-radius: 10px;
+}
+th 
+{
+    background-color: hwb(201 40% 22%);
+    padding: 10px; /* Add padding to header cells */
+    border: 1px solid #ccc; /* Add border to header cells */
+    font-size: larger;
+}
+td 
+{
+    padding: 10px; /* Add padding to data cells */
+    border: 1px solid #ccc; /* Add border to data cells */
+    text-align: center;
+}
+.button{
+    position: inherit;
+    text-align: center;
+    padding: 15px;
+    top: 50%;
+    min-width: 120px;
+    min-height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4681f4;
+    color: white;
+}
+.button:hover{
+    transition-duration: 0.2s;
+    background-color: azure;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    border: black;
+    border-color: black;
+}
+.data{
+    font-weight: bolder;
+}
